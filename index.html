@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio-1</title>
+    <!-- bootstrapicons icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- tailwind css  -->
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="font-noto">
     <!-- hero  -->
     <div
-      class="h-[50vh] md:h-screen w-full bg-linear-to-t from-violet-200 relative overflow-hidden"
+      class="h-[50vh] md:h-screen w-full bg-gradient-to-tr from-violet-200 via-violet-100 to-black/20 relative overflow-hidden"
     >
       <div
         class="top-20 -right-1/6 w-full flex justify-center items-end absolute md:-right-30 md:bottom-0"
@@ -23,7 +31,7 @@
       </div>
       <!-- intro -->
       <div
-        class="hidden p-4 shadow md:space-y-5 absolute bg-black/80 md:rounded-2xl text-white w-120 md:bottom-5 md:right-1/5 lg:bottom-10 lg:right-1/9 md:py-6 md:block md:px-5"
+        class="hidden p-4 shadow-xl md:space-y-5 absolute bg-black/80 md:rounded-2xl text-white w-120 md:bottom-5 md:right-1/5 lg:bottom-10 lg:right-1/9 md:py-6 md:block md:px-5"
       >
         <h1 class="text-3xl">Hi</h1>
         <p class="text-base">
@@ -50,6 +58,188 @@
         ></div>
       </div>
     </div>
+
+    <!-- skills  -->
+    <div class="pt-30 w-full">
+      <div class="container mx-auto space-y-20 px-6">
+        <div>
+          <h1 class="text-center text-5xl font-bold">I have Expertise in</h1>
+        </div>
+        <!-- skill cards-->
+        <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
+          <!-- skill card-1-->
+          <div
+            class="py-5 px-7 rounded-sm bg-gradient-to-tr from-red-200 transition-all hover:shadow-xl shadow-red-200"
+          >
+            <h3 class="text-2xl font-bold mb-3">UI</h3>
+            <p>
+              I have 2-year experience working as a web design. I am expert in
+              making eye catche and fully responsive designs.
+            </p>
+          </div>
+          <!-- skill card-2-->
+          <div
+            class="py-5 px-7 rounded-sm bg-gradient-to-tr from-red-200 transition-all hover:shadow-xl shadow-red-200"
+          >
+            <h3 class="text-2xl font-bold mb-3">ReactJs</h3>
+            <p>
+              Without reactjs UI/UX is really important. By keeping this mind I
+              have expertise in reactjs and ability to make full responsive
+              interactive font end designs.
+            </p>
+          </div>
+          <!-- skill card-3  -->
+          <div
+            class="py-5 px-7 rounded-sm bg-gradient-to-tr from-red-200 transition-all hover:shadow-xl shadow-red-200"
+          >
+            <h3 class="text-2xl font-bold mb-3">PHP</h3>
+            <p>
+              I have experience working as a php developer. I have experience to
+              create larg portal and panels.
+            </p>
+          </div>
+          <!-- skill card-4  -->
+          <div
+            class="py-5 px-7 rounded-sm bg-gradient-to-tr from-red-200 transition-all hover:shadow-xl shadow-red-200"
+          >
+            <h3 class="text-2xl font-bold mb-3">Mysql</h3>
+            <p>
+              Choosing PHP as a backend languag i have expertise with the
+              relational database i,e Mysql
+            </p>
+          </div>
+          <!-- skill card-5 -->
+          <div
+            class="py-5 px-7 rounded-sm bg-gradient-to-tr from-red-200 transition-all hover:shadow-xl shadow-red-200"
+          >
+            <h3 class="text-2xl font-bold mb-3">Laravel</h3>
+            <p>
+              In the scope of PHP a web language. I also have epxertise the PHP
+              framework laravel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills set  -->
+    <div class="pt-30 w-full">
+      <div class="space-y-20 container mx-auto px-6">
+        <h1 class="text-5xl text-center font-bold">Skill Set</h1>
+        <div
+          class="pl-[10%] pr-3 space-y-4 sm:pl-[20%] md:pl-[30%] lg:pl-[50%]"
+        >
+          <!-- html progress -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">HTML</h3>
+            <div class="w-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-full rounded-full"></div>
+            </div>
+          </div>
+          <!-- css progress -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">CSS</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[80%] rounded-full"></div>
+            </div>
+          </div>
+          <!-- bootstrap -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">Bootstrap</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[100%] rounded-full"></div>
+            </div>
+          </div>
+          <!-- js progress  -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">JS</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[70%] rounded-full"></div>
+            </div>
+          </div>
+
+          <!-- JQuery  progress-->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">JQuery</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[50%] rounded-full"></div>
+            </div>
+          </div>
+
+          <!-- PHP  progress-->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">PHP</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[70%] rounded-full"></div>
+            </div>
+          </div>
+
+          <!-- Mysql progress -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">Mysql</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[90%] rounded-full"></div>
+            </div>
+          </div>
+
+          <!-- Laravel progress  -->
+          <div class="flex flex-col gap-y-2">
+            <h3 class="text-xl font-bold md:text-3xl">Larvel</h3>
+            <div class="w-full rounded-full overflow-hidden">
+              <div class="h-2 bg-red-400 w-[50%] rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact  -->
+    <div class="w-full pt-30 pb-15">
+      <div class="space-y-20 container mx-auto px-6">
+        <div
+          class="grid grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-3 gap-3"
+        >
+          <!-- phone card  -->
+          <div
+            class="min-h-50 rounded-3xl bg-gradient-to-b from-indigo-200 py-5 px-8 space-y-4"
+          >
+            <div class="relative">
+              <h4 class="text-3xl font-semibold">Contact Us</h4>
+              <div class="absolute top-9 w-20 left-0 h-0.5 bg-black/50"></div>
+            </div>
+            <p>
+              +92-308-57-24-732 <br />
+              +92-17-936-19-12
+            </p>
+          </div>
+          <!-- address card  -->
+          <div
+            class="min-h-50 rounded-3xl bg-gradient-to-b from-indigo-200 py-5 px-8 space-y-4"
+          >
+            <div class="relative">
+              <h4 class="text-3xl font-semibold">Address</h4>
+              <div class="absolute top-9 w-20 left-0 h-0.5 bg-black/50"></div>
+            </div>
+            <p>District Lakki Marwat KPK, PAKISTAN</p>
+          </div>
+          <!-- address card  -->
+          <div
+            class="min-h-50 rounded-3xl bg-gradient-to-b from-indigo-200 py-5 px-8 space-y-4"
+          >
+            <div class="relative">
+              <h4 class="text-3xl font-semibold">Email Us</h4>
+              <div class="absolute top-9 w-20 left-0 h-0.5 bg-black/50"></div>
+            </div>
+            <p>
+              <a href="mailto:sahibzadaissarali@gmail.com"
+                >mailto:sahibzadaissarali@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="./auto-typing.js"></script>
     <script src="./script.js"></script>
   </body>

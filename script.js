@@ -8,7 +8,7 @@ const options = {
 
 const typing = new AutoTyping(
   "#auto-typing",
-  ["A Web Developer", "and Designer"],
+  ["A Web Developer", "and Web Designer"],
   options
 );
 typing.start();
